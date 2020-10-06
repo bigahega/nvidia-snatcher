@@ -130,6 +130,13 @@ Here is a list of variables that you can use to customize your newly copied `.en
 
 | Stores | Environment variable |
 |:---:|:---:|
+| Itopya | `itopya`|
+| Vatan Bilgisayar | `vatan`|
+| Hepsiburada | `hepsiburada`|
+| Sinerji | `sinerji`|
+| Qp Bilişim | `qp`|
+| Game Garaj | `gamegaraj`|
+| Incehesap | `incehesap`|
 | Adorama | `adorama`|
 | Amazon | `amazon`|
 | Amazon (CA) | `amazon-ca`|
