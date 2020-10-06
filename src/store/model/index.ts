@@ -1,37 +1,45 @@
-import {Adorama} from './adorama';
-import {Amazon} from './amazon';
-import {AmazonCa} from './amazon-ca';
-import {AmazonDe} from './amazon-de';
-import {AmazonNl} from './amazon-nl';
-import {AmazonUk} from './amazon-uk';
-import {Aria} from './aria';
-import {Asus} from './asus';
-import {AsusDe} from './asus-de';
-import {BAndH} from './bandh';
-import {BestBuy} from './bestbuy';
-import {BestBuyCa} from './bestbuy-ca';
-import {Box} from './box';
-import {Ccl} from './ccl';
-import {Currys} from './currys';
-import {Ebuyer} from './ebuyer';
-import {Evga} from './evga';
-import {EvgaEu} from './evga-eu';
-import {Gamestop} from './gamestop';
-import {MicroCenter} from './microcenter';
-import {Newegg} from './newegg';
-import {NeweggCa} from './newegg-ca';
-import {Novatech} from './novatech';
-import {Nvidia} from './nvidia';
-import {NvidiaApi} from './nvidia-api';
-import {OfficeDepot} from './officedepot';
-import {Overclockers} from './overclockers';
-import {Pny} from './pny';
-import {Scan} from './scan';
-import {Store} from './store';
-import {Very} from './very';
-import {Zotac} from './zotac';
-import {config} from '../../config';
-import {logger} from '../../logger';
+import { Adorama } from './adorama';
+import { Amazon } from './amazon';
+import { AmazonCa } from './amazon-ca';
+import { AmazonDe } from './amazon-de';
+import { AmazonNl } from './amazon-nl';
+import { AmazonUk } from './amazon-uk';
+import { Aria } from './aria';
+import { Asus } from './asus';
+import { AsusDe } from './asus-de';
+import { BAndH } from './bandh';
+import { BestBuy } from './bestbuy';
+import { BestBuyCa } from './bestbuy-ca';
+import { Box } from './box';
+import { Ccl } from './ccl';
+import { Currys } from './currys';
+import { Ebuyer } from './ebuyer';
+import { Evga } from './evga';
+import { EvgaEu } from './evga-eu';
+import { Gamestop } from './gamestop';
+import { MicroCenter } from './microcenter';
+import { Newegg } from './newegg';
+import { NeweggCa } from './newegg-ca';
+import { Novatech } from './novatech';
+import { Nvidia } from './nvidia';
+import { NvidiaApi } from './nvidia-api';
+import { OfficeDepot } from './officedepot';
+import { Overclockers } from './overclockers';
+import { Pny } from './pny';
+import { Scan } from './scan';
+import { Store } from './store';
+import { Very } from './very';
+import { Zotac } from './zotac';
+import { Itopya } from './itopya';
+import { Vatan } from './vatan';
+import { Hepsiburada } from './hepsiburada';
+import { Sinerji } from './sinerji';
+import { Qp } from './qp';
+import { GameGraj } from './game-garaj';
+import { Incehesap } from './incehesap';
+import { config } from '../../config';
+import { logger } from '../../logger';
+
 
 const masterList = new Map([
 	[Adorama.name, Adorama],
@@ -64,7 +72,14 @@ const masterList = new Map([
 	[Pny.name, Pny],
 	[Scan.name, Scan],
 	[Very.name, Very],
-	[Zotac.name, Zotac]
+	[Zotac.name, Zotac],
+	[Itopya.name, Itopya],
+	[Vatan.name, Vatan],
+	[Hepsiburada.name, Hepsiburada],
+	[Sinerji.name, Sinerji],
+	[Qp.name, Qp],
+	[GameGraj.name, GameGraj],
+	[Incehesap.name, Incehesap]
 ]);
 
 const list = new Map();
