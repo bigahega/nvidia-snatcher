@@ -1,25 +1,32 @@
-import {Adorama} from './adorama';
-import {Amazon} from './amazon';
-import {AmazonCa} from './amazon-ca';
-import {AmazonDe} from './amazon-de';
-import {AmazonNl} from './amazon-nl';
-import {Asus} from './asus';
-import {BAndH} from './bandh';
-import {BestBuy} from './bestbuy';
-import {BestBuyCa} from './bestbuy-ca';
-import {Config} from '../../config';
-import {Evga} from './evga';
-import {EvgaEu} from './evga-eu';
-import {Logger} from '../../logger';
-import {MicroCenter} from './microcenter';
-import {Newegg} from './newegg';
-import {NeweggCa} from './newegg-ca';
-import {Nvidia} from './nvidia';
-import {NvidiaApi} from './nvidia-api';
-import {OfficeDepot} from './officedepot';
-import {Pny} from './pny';
-import {Store} from './store';
-import {Zotac} from './zotac';
+import { Adorama } from './adorama';
+import { Amazon } from './amazon';
+import { AmazonCa } from './amazon-ca';
+import { AmazonDe } from './amazon-de';
+import { AmazonNl } from './amazon-nl';
+import { Asus } from './asus';
+import { BAndH } from './bandh';
+import { BestBuy } from './bestbuy';
+import { BestBuyCa } from './bestbuy-ca';
+import { Config } from '../../config';
+import { Evga } from './evga';
+import { EvgaEu } from './evga-eu';
+import { Logger } from '../../logger';
+import { MicroCenter } from './microcenter';
+import { Newegg } from './newegg';
+import { NeweggCa } from './newegg-ca';
+import { Nvidia } from './nvidia';
+import { NvidiaApi } from './nvidia-api';
+import { OfficeDepot } from './officedepot';
+import { Pny } from './pny';
+import { Store } from './store';
+import { Zotac } from './zotac';
+import { Itopya } from './itopya';
+import { Vatan } from './vatan';
+import { Hepsiburada } from './hepsiburada';
+import { Sinerji } from './sinerji';
+import { Qp } from './qp';
+import { GameGraj } from './game-garaj';
+import { Incehesap } from './incehesap';
 
 const masterList = new Map([
 	[Adorama.name, Adorama],
@@ -40,7 +47,14 @@ const masterList = new Map([
 	[NvidiaApi.name, NvidiaApi],
 	[OfficeDepot.name, OfficeDepot],
 	[Pny.name, Pny],
-	[Zotac.name, Zotac]
+	[Zotac.name, Zotac],
+	[Itopya.name, Itopya],
+	[Vatan.name, Vatan],
+	[Hepsiburada.name, Hepsiburada],
+	[Sinerji.name, Sinerji],
+	[Qp.name, Qp],
+	[GameGraj.name, GameGraj],
+	[Incehesap.name, Incehesap]
 ]);
 
 const list = new Map();
