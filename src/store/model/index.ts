@@ -39,6 +39,8 @@ import { GameGraj } from './game-garaj';
 import { Incehesap } from './incehesap';
 import { config } from '../../config';
 import { logger } from '../../logger';
+import { Nova } from './nova';
+import { Ebrar } from './ebrar';
 
 
 const masterList = new Map([
@@ -79,7 +81,9 @@ const masterList = new Map([
 	[Sinerji.name, Sinerji],
 	[Qp.name, Qp],
 	[GameGraj.name, GameGraj],
-	[Incehesap.name, Incehesap]
+	[Incehesap.name, Incehesap],
+	[Nova.name, Nova],
+	[Ebrar.name, Ebrar]
 ]);
 
 const list = new Map();
