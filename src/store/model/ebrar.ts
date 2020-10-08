@@ -22,8 +22,7 @@ export const Ebrar: Store = {
 			brand: 'msi',
 			model: 'gaming trio',
 			series: '3080',
-			//url: 'https://www.ebrarbilgisayar.com/msi-geforce-rtx-3080-gaming-trio-10g-10gb-320bit-gddr6x-pmu365500'
-			url: 'https://www.ebrarbilgisayar.com/msi-gl65-leopard-10sdr-412xtr-i7-10750h-16gb-256gb-ssd-6gb-gtx1660ti-156-freedos-pmu365490'
+			url: 'https://www.ebrarbilgisayar.com/msi-geforce-rtx-3080-gaming-trio-10g-10gb-320bit-gddr6x-pmu365500'
 		},
 		{
 			brand: 'msi',
