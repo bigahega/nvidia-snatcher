@@ -35,7 +35,7 @@ export const Hepsiburada: Store = {
 		{
 			brand: 'asus',
 			model: 'strix oc',
-			series: '3080',
+			series: '3090',
 			url: 'https://www.hepsiburada.com/asus-geforce-rtx-3090-oc-24gb-384bit-gddr6x-dx12-pci-express-4-0-ekran-karti-tuf-rtx-3090-o24g-gaming-p-HBV00000XATWW'
 		}
 
