@@ -41,6 +41,8 @@ import { config } from '../../config';
 import { logger } from '../../logger';
 import { Nova } from './nova';
 import { Ebrar } from './ebrar';
+import { AmazonTr } from './amazon-tr';
+import { Gaming } from './gaming';
 
 
 const masterList = new Map([
@@ -83,7 +85,9 @@ const masterList = new Map([
 	[GameGraj.name, GameGraj],
 	[Incehesap.name, Incehesap],
 	[Nova.name, Nova],
-	[Ebrar.name, Ebrar]
+	[Ebrar.name, Ebrar],
+	[AmazonTr.name, AmazonTr],
+	[Gaming.name, Gaming]
 ]);
 
 const list = new Map();

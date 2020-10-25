@@ -139,6 +139,8 @@ Here is a list of variables that you can use to customize your newly copied `.en
 | Incehesap | `incehesap`|
 | Ebrar Bilgisayar | `ebrar`|
 | Nova Bilgisayar | `nova`|
+| Amazon (TR) | `amazon-tr`|
+| Gaming.gen.tr | `gaming`|
 | Adorama | `adorama`|
 | Amazon | `amazon`|
 | Amazon (CA) | `amazon-ca`|
