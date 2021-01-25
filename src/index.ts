@@ -52,8 +52,8 @@ async function main() {
 			height: config.page.height,
 			width: config.page.width
 		},
-		headless: config.browser.isHeadless,
-		executablePath: 'chromium-browser'
+		headless: config.browser.isHeadless
+		//executablePath: 'chromium-browser'
 	});
 
 	for (const store of storeList.values()) {
