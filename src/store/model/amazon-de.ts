@@ -352,6 +352,42 @@ export const AmazonDe: Store = {
 			model: 'xlr8 rgb',
 			series: '3070',
 			url: 'https://www.amazon.de/dp/B08HBJB7YD'
+		},
+		{
+			brand: 'xfx',
+			model: 'merc 319',
+			series: '6800xt',
+			url: 'https://www.amazon.de/-/tr/dp/B08NX14LV1/ref=sr_1_1?__mk_tr_TR=ÅMÅŽÕÑ&dchild=1&keywords=6800&qid=1611590146&refinements=p_n_availability%3A419126031&rnid=419124031&s=computers&sr=1-1'
+		},
+		{
+			brand: 'sapphire',
+			model: 'nitro+',
+			series: '6800xt',
+			url: 'https://www.amazon.de/-/tr/dp/B08NX6KLX2/ref=sr_1_4?__mk_tr_TR=ÅMÅŽÕÑ&dchild=1&keywords=6800&qid=1611590146&refinements=p_n_availability%3A419126031&rnid=419124031&s=computers&sr=1-4'
+		},
+		{
+			brand: 'gigabyte',
+			model: 'reference',
+			series: '6800xt',
+			url: 'https://www.amazon.de/-/tr/dp/B08NS4W2ZY/ref=sr_1_7?__mk_tr_TR=ÅMÅŽÕÑ&dchild=1&keywords=6800&qid=1611590146&refinements=p_n_availability%3A419126031&rnid=419124031&s=computers&sr=1-7'
+		},
+		{
+			brand: 'powercolor',
+			model: 'red devil limited',
+			series: '6800xt',
+			url: 'https://www.amazon.de/-/tr/dp/B08P2BQRLW/ref=sr_1_15?__mk_tr_TR=ÅMÅŽÕÑ&dchild=1&keywords=6800&qid=1611590146&refinements=p_n_availability%3A419126031&rnid=419124031&s=computers&sr=1-15'
+		},
+		{
+			brand: 'msi',
+			model: 'gaming x trio',
+			series: '6800xt',
+			url: 'https://www.amazon.de/-/tr/dp/B08QCLRN7S/ref=sr_1_16?__mk_tr_TR=ÅMÅŽÕÑ&dchild=1&keywords=6800&qid=1611590146&refinements=p_n_availability%3A419126031&rnid=419124031&s=computers&sr=1-16'
+		},
+		{
+			brand: 'sapphire',
+			model: 'reference',
+			series: '6800xt',
+			url: 'https://www.amazon.de/-/tr/dp/B08MVC76SR/ref=sr_1_18?__mk_tr_TR=ÅMÅŽÕÑ&dchild=1&keywords=6800&qid=1611590146&refinements=p_n_availability%3A419126031&rnid=419124031&s=computers&sr=1-18'
 		}
 	],
 	name: 'amazon-de'
